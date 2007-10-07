@@ -12,9 +12,9 @@ import com.protocol7.artemisa.XmlXPathBinder;
 public class DiveIntoAtomTest extends TestTemplate {
 
     public void testXmlBinding() throws Exception {
-        XPathBinder binder = new XmlXPathBinder(buildDocumentFromFile("src/test/atom-binding.xml"));
+        XPathBinder binder = new XmlXPathBinder(buildDocumentFromFile("src/test/resources/atom-binding.xml"));
         
-        AtomFeed feed = (AtomFeed) binder.bind(buildDocumentFromFile("src/test/diveintomark.xml"));
+        AtomFeed feed = (AtomFeed) binder.bind(buildDocumentFromFile("src/test/resources/diveintomark.xml"));
         
         assertEquals("dive into mark", feed.getTitle());
         assertEquals("2007-07-01T02:34:32Z", feed.getUpdated()); // TODO replace with date
@@ -43,7 +43,7 @@ public class DiveIntoAtomTest extends TestTemplate {
         ns.put("atom", "http://www.w3.org/2005/Atom");
         XPathBinder binder = new AnnotationsXPathBinder(AtomFeed.class, ns);
         
-        AtomFeed feed = (AtomFeed) binder.bind(buildDocumentFromFile("src/test/diveintomark.xml"));
+        AtomFeed feed = (AtomFeed) binder.bind(buildDocumentFromFile("src/test/resources/diveintomark.xml"));
         
         assertEquals("dive into mark", feed.getTitle());
         assertEquals("2007-07-01T02:34:32Z", feed.getUpdated()); // TODO replace with date

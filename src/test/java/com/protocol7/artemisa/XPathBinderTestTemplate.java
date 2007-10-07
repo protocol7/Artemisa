@@ -10,7 +10,7 @@ public abstract class XPathBinderTestTemplate extends TestTemplate {
     public void testNoContext() throws Exception {
         XPathBinder binder = createNoContextBinder();
         
-        SimpleBean bean = (SimpleBean) binder.bind(buildDocumentFromFile("src/test/test1.xml"));
+        SimpleBean bean = (SimpleBean) binder.bind(buildDocumentFromFile("src/test/resources/test1.xml"));
         
         assertEquals("Text1", bean.getFoo());
         assertEquals("Text2", bean.getBar());
@@ -21,7 +21,7 @@ public abstract class XPathBinderTestTemplate extends TestTemplate {
     public void testWithContext() throws Exception {
         XPathBinder binder = createWithContextBinder();
         
-        SimpleBean bean = (SimpleBean) binder.bind(buildDocumentFromFile("src/test/test1.xml"));
+        SimpleBean bean = (SimpleBean) binder.bind(buildDocumentFromFile("src/test/resources/test1.xml"));
         
         assertEquals("Text1", bean.getFoo());
         assertEquals("Text2", bean.getBar());
@@ -32,7 +32,7 @@ public abstract class XPathBinderTestTemplate extends TestTemplate {
     public void testMultipleBeans() throws Exception {
         XPathBinder binder = createMultipleBeansBinder();
         
-        Object[] beans = (Object[]) binder.bind(buildDocumentFromFile("src/test/test2.xml"));
+        Object[] beans = (Object[]) binder.bind(buildDocumentFromFile("src/test/resources/test2.xml"));
         
         SimpleBean bean = (SimpleBean) beans[0];
         assertEquals("Text1", bean.getBar());
@@ -52,7 +52,7 @@ public abstract class XPathBinderTestTemplate extends TestTemplate {
     public void testWithNamespace() throws Exception {        
         XPathBinder binder = createWithNamespaceBinder();
         
-        SimpleBean bean = (SimpleBean) binder.bind(buildDocumentFromFile("src/test/test3.xml"));
+        SimpleBean bean = (SimpleBean) binder.bind(buildDocumentFromFile("src/test/resources/test3.xml"));
         
         assertEquals("Text1", bean.getBar());
         assertEquals("Text2", bean.getFoo());
@@ -64,7 +64,7 @@ public abstract class XPathBinderTestTemplate extends TestTemplate {
 
         XPathBinder binder = createComplexBeanBinder();
         
-        ComplexBean bean = (ComplexBean) binder.bind(buildDocumentFromFile("src/test/test_complex1.xml"));
+        ComplexBean bean = (ComplexBean) binder.bind(buildDocumentFromFile("src/test/resources/test_complex1.xml"));
         
         assertEquals("Text2", bean.getFoo());
         

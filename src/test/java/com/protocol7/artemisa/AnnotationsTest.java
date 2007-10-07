@@ -35,7 +35,7 @@ public class AnnotationsTest extends TestCase {
         
         AnnotationsXPathBinder binder = new AnnotationsXPathBinder(SimpleBean.class, null);
         
-        SimpleBean bean = (SimpleBean) binder.bind(buildDocument("src/test/annot-test1.xml"));
+        SimpleBean bean = (SimpleBean) binder.bind(buildDocument("src/test/resources/annot-test1.xml"));
         
         assertEquals("Text1", bean.getFoo());
         assertEquals("Text2", bean.getBar());
@@ -45,7 +45,7 @@ public class AnnotationsTest extends TestCase {
         
         AnnotationsXPathBinder binder = new AnnotationsXPathBinder(ComplexBean.class, null);
         
-        ComplexBean bean = (ComplexBean) binder.bind(buildDocument("src/test/annot-complex.xml"));
+        ComplexBean bean = (ComplexBean) binder.bind(buildDocument("src/test/resources/annot-complex.xml"));
         
         assertEquals("Text3", bean.getFoo());
         
