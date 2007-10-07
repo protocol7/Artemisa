@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:thr="http://purl.org/syndication/thread/1.0"
+    xml:base="http://diveintomark.org/feed/" xml:lang="en">
+    <id>tag:diveintomark.org,2001-07-29:/</id>
+    <title>dive into mark</title>
+    <subtitle>In stereo where available</subtitle>
+    <link href="/"/>
+    <link rel="self" href=""/>
+    <updated>2007-07-01T02:34:32Z</updated>
+    <category scheme="http://diveintomark.org/tag/" term="google"/>
+    <category scheme="http://diveintomark.org/tag/" term="humor"/>
+    <category scheme="http://diveintomark.org/tag/" term="linux"/>
+    <category scheme="http://diveintomark.org/tag/" term="personal"/>
+    <category scheme="http://diveintomark.org/tag/" term="lighthouse"/>
+    <rights>Copyright 2007 Mark Pilgrim, all rights reserved</rights>
+    <icon>/public/2006/07/favicon.ico</icon>
+    <author>
+        <name>Mark Pilgrim</name>
+    </author>
+    <entry>
+        <id>tag:diveintomark.org,2007-07-01:/archives/20070701023107</id>
+        <title>iRony</title>
+        <link href="http://diveintomark.org/archives/2007/06/30/irony"/>
+        <link rel="replies" href="http://diveintomark.org/archives/2007/06/30/irony/feed/"
+            thr:count="2" thr:updated="2007-07-01T09:42:53Z"/>
+        <published>2007-07-01T02:31:07Z</published>
+        <updated>2007-07-01T02:34:32Z</updated>
+        <summary type="html"><![CDATA[1995 &mdash; Apple&#8217;s &#8220;Been there, done that&#8221; t-shirt (which I still own, BTW):
+
+
+1984 Macintosh &middot; Graphical User Interface cut, copy, paste, undo &middot; QuickDraw bit-mapped graphical display, long file names, 3.5&#8243; floppy
+
+
+2006 &mdash; anonymous fanboy hating on Linux:
+
+
+You&#8217;re going from &#8220;It just works&#8221; to &#8220;Hope it works&#8221;. &#8230; I want the OS to stay out [&#8230;]]]></summary>
+        <content type="html" xml:base="http://diveintomark.org/archives/2007/06/30/irony"><![CDATA[<p>1995 &mdash; Apple&#8217;s &#8220;<a href="http://www.digibarn.com/collections/tshirts/big-t-collection/index.html">Been there, done that</a>&#8221; t-shirt (which I still own, BTW):</p>
+
+<blockquote>
+<p><b style="background:transparent;color:red">1984</b> Macintosh &middot; <i>Graphical User Interface</i> cut, copy, paste, undo &middot; <i>QuickDraw</i> bit-mapped graphical display, <b>long file names</b>, 3.5&#8243; floppy</p>
+</blockquote>
+
+<p>2006 &mdash; <a href="http://diveintomark.org/archives/2006/05/30/bye-apple#comment-6527">anonymous fanboy hating on Linux</a>:</p>
+
+<blockquote>
+<p>You&#8217;re going from &#8220;It just works&#8221; to &#8220;Hope it works&#8221;. &#8230; I want the OS to stay out of my way. No f&#8217;ing popups and no applications that look completely different from one another with nonstandard behaviors–there should be a standard way to copy and paste something from one window to another and it should work reliably.</p>
+</blockquote>
+
+<p>2007 &mdash; <a href="http://daringfireball.net/2007/06/iphone_first_impressions">the iPhone debuts</a>:</p>
+
+<blockquote>
+<p>One problem is that the iPhone doesn&#8217;t support the concept of selected text. That means you can&#8217;t just select a specific portion to quote of the message you&#8217;re replying to; nor can you select a chunk of the quoted message and delete it while editing. The only way to delete text is one character at a time (although the keyboard does let you press-and-hold to repeat).</p>
+<p>&#8230; With no menu bar, there&#8217;s no Edit menu. With no keyboard, there&#8217;s no command-key shortcuts. The Newton solved this with magic gestures. The iPhone solves this by not having a clipboard at all. No copy, no paste.</p>
+</blockquote>
+
+<p>You gotta admit, that&#8217;s at least a little bit funny.</p>]]></content>
+    </entry>
+    <entry>
+        <id>tag:diveintomark.org,2007-06-30:/archives/20070630173711</id>
+        <title>iGroove for iPhone?</title>
+        <link href="http://diveintomark.org/archives/2007/06/30/give-the-gift-of-lockin"/>
+        <link rel="replies"
+            href="http://diveintomark.org/archives/2007/06/30/give-the-gift-of-lockin/feed/"
+            thr:count="15" thr:updated="2007-07-01T01:33:45Z"/>
+        <published>2007-06-30T17:37:11Z</published>
+        <updated>2007-06-30T21:05:11Z</updated>
+        <summary type="html"><![CDATA[
+
+untitled &copy; kennejima  / CC
+
+
+A friend of mine is getting an iPhone for her birthday, and she has asked me to buy something like the Klipsch iGroove, but for her iPhone.  i.e. It acts as a charging station for the phone, and lets you play whatever music is on the phone through real [&#8230;]]]></summary>
+        <content type="html"
+            xml:base="http://diveintomark.org/archives/2007/06/30/give-the-gift-of-lockin"><![CDATA[<div class="punch">
+<img src="http://diveintomark.org/public/2007/06/mac-plus-iphone.jpg" alt="[Mac and iPhone]" title="" width="160" height="240">
+<span><a href="http://flickr.com/photos/kennejima/669257622/">untitled</a> &copy; <a href="http://flickr.com/people/kennejima/">kennejima</a>  / <a title="used under Creative Commons Attribution 2.0 License" href="http://creativecommons.org/licenses/by/2.0/">CC</a></span>
+</div>
+
+<p>A friend of mine is getting an iPhone for her birthday, and she has asked me to buy something like the <a href="http://www.klipsch.com/products/details/igroove-hg.aspx">Klipsch iGroove</a>, but for her iPhone.  i.e. It acts as a charging station for the phone, and lets you play whatever music is on the phone through real speakers.  Does such a thing exist?  Or are the existing class of iPod speaker systems compatible with the iPhone?</p>
+
+<p>While we&#8217;re on the subject, what brand of speakers should I buy?  I am told by audiophile friends that Bose is not worth the money, but they have no other suggestions that don&#8217;t cost, you know, a thousand dollars.  So let&#8217;s rephrase the question: what brand of iPhone-compatible speakers should I buy for under $200?</p>]]></content>
+    </entry>
+    <entry>
+        <id>tag:diveintomark.org,2007-06-29:/archives/20070629183301</id>
+        <title>The persistence of memory</title>
+        <link href="http://diveintomark.org/archives/2007/06/29/duke"/>
+        <link rel="replies" href="http://diveintomark.org/archives/2007/06/29/duke/feed/"
+            thr:count="6" thr:updated="2007-07-01T05:43:56Z"/>
+        <published>2007-06-29T18:33:01Z</published>
+        <updated>2007-06-29T23:02:56Z</updated>
+        <summary type="html"><![CDATA[
+
+Duke with helmet &copy; Sun Microsystems / BSD
+
+
+
+HerDo we have an extra USB mouse anywhere?
+Me(without looking up from keyboard) We have one with the open source Java mascot suspended inside it, that I got at ApacheCon 2003.  It&#8217;s in the storage room behind the laundry room, in the blue infant bathtub on the floor [&#8230;]]]></summary>
+        <content type="html" xml:base="http://diveintomark.org/archives/2007/06/29/duke"><![CDATA[<div class="punch">
+<img src="/public/2007/06/DukeWithHelmet240x240.jpg" alt="[Duke: the Java Mascot]" title="" width="240" height="240">
+<span><a href="https://duke.dev.java.net/images/JDK6/index.html">Duke with helmet</a> &copy; <a href="http://www.sun.com/">Sun Microsystems</a> / <a title="used under BSD License" href="https://duke.dev.java.net/#faq">BSD</a></span>
+</div>
+
+<dialog>
+<dt>Her</dt><dd>Do we have an extra USB mouse anywhere?</dd>
+<dt>Me</dt><dd>(without looking up from keyboard) We have one with the open source Java mascot suspended inside it, that I got at ApacheCon 2003.  It&#8217;s in the storage room behind the laundry room, in the blue infant bathtub on the floor in front of the filing cabinets.</dd>
+</dialog>
+<p><i>&#8230; Scuffling ensues.  She emerges triumphantly with a mouse and gives it to the kid.</i></p>
+<dialog>
+<dt>Her</dt><dd>That&#8217;s incredible.</dd>
+<dt>Me</dt><dd>Love me.</dd>
+<dt>Kid</dt><dd>Look daddy, it has a penguin in it.</dd>
+<dt>Me</dt><dd>It&#8217;s not a penguin.  It&#8217;s a&#8230; mascot.</dd>
+<dt>Kid</dt><dd>&#8220;Mas-cot.&#8221;</dd>
+<dt>Me</dt><dd>His name is Duke.</dd>
+<dt>Kid</dt><dd>&#8220;Duke.&#8221;</dd>
+<dt>Me</dt><dd><a href="https://duke.dev.java.net/">He&#8217;s open source now</a>.</dd>
+<dt>Her</dt><dd>Hey, why is this blanket here?</dd>
+<dt>Me</dt><dd>What blanket?</dd>
+<dt>Her</dt><dd>This blanket.  It&#8217;s supposed to be in his daycare.  Did you take it to daycare?</dd>
+<dt>Me</dt><dd>When?</dd>
+<dt>Her</dt><dd>On Monday.</dd>
+<dt>Me</dt><dd>I have no recollection whatsoever of events that transpired on Monday.</dd>
+<dt>Her</dt><dd>You&#8217;re supposed to do it every Monday.</dd>
+<dt>Me</dt><dd>First I&#8217;ve heard of it.</dd>
+<dt>Her</dt><dd>This is your children&#8217;s welfare.  You should pay more attention.</dd>
+<dt>Me</dt><dd>First I&#8217;ve heard of it.  But hey, if I can ever enhance my children&#8217;s welfare with a USB mouse, let me know.</dd>
+</dialog>
+]]></content>
+    </entry>
+</feed>

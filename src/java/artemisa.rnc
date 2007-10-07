@@ -1,0 +1,15 @@
+default namespace = "http://protocol7.com/ns/xpath-binding"
+
+start = element binding { bean }
+bean =
+  element bean {
+    attribute class { text },
+    attribute xpath { text }?,
+    property*
+  }
+
+property = element property {
+      attribute name { text },
+      ( attribute xpath { text } | 
+      bean)
+}

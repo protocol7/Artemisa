@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<binding xmlns="http://protocol7.com/ns/xpath-binding" xmlns:atom="http://www.w3.org/2005/Atom">
+    <bean class="com.protocol7.artemisa.examples.atom.AtomFeed" xpath="/atom:feed">
+        <property name="title" xpath="atom:title/text()"/>
+        <property name="author" xpath="atom:author/atom:name/text()"/>
+        <property name="updated" xpath="atom:updated/text()"/>
+        <property name="entries">
+            <bean class="com.protocol7.artemisa.examples.atom.AtomEntry" xpath="atom:entry">
+                <property name="title" xpath="atom:title/text()"/>
+                <property name="published" xpath="atom:published/text()"/>
+                <property name="updated" xpath="atom:updated/text()"/>
+                <property name="content" xpath="atom:content/text()"/>
+            </bean>
+        </property>
+        <property name="entriesArray">
+            <bean class="com.protocol7.artemisa.examples.atom.AtomEntry" xpath="atom:entry">
+                <property name="title" xpath="atom:title/text()"/>
+                <property name="published" xpath="atom:published/text()"/>
+                <property name="updated" xpath="atom:updated/text()"/>
+                <property name="content" xpath="atom:content/text()"/>
+            </bean>
+        </property>
+        
+    </bean>
+</binding>

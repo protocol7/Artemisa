@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<root  xmlns="http://protocol7.com/foo">
+    <bean bar="Text1">
+        <foo>Text2</foo>
+    </bean>
+</root>

@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<child bar="Text2">
+    <foo>Text1</foo>
+</child>

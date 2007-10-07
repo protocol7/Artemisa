@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<binding xmlns="http://protocol7.com/ns/xpath-binding">
+    <bean class="com.protocol7.artemisa.SimpleBean">
+        <property name="foo" xpath="/root/bean/foo/text()" />
+        <property name="bar" xpath="/root/bean/@bar" />
+    </bean>
+</binding>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<root >
+    <bean>
+        <foo>Text2</foo>
+        <child bar="Text4">
+            <foo>Text3</foo>
+        </child>
+    </bean>
+</root>
